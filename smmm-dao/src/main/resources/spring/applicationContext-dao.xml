@@ -20,7 +20,4 @@
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 
-
-
-
 </beans>
