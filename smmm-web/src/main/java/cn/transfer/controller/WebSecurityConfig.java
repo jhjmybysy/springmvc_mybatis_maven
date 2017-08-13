@@ -24,8 +24,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.loginPage("/login")
 				// #9 注明了登陆页面，意味着用GET访问”/login”时，显示登陆页面
 				.permitAll();
-		// #5
-		// 任何人(包括没有经过验证的)都可以访问”/login”和”/login?error”。permitAll()是指用户可以访问formLogin()相关的任何URL。
+		// #5 任何人(包括没有经过验证的)都可以访问”/login”和”/login?error”。permitAll()是指用户可以访问formLogin()相关的任何URL。
 		/*
 		 * http.authorizeRequests().antMatchers("/").permitAll().anyRequest()
 		 * .authenticated().and().formLogin().loginPage("/login")

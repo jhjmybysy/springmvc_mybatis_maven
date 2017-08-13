@@ -6,7 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-
 	<!-- 属性 -->
 	<properties>
 		<spring.version>4.2.4.RELEASE</spring.version>
